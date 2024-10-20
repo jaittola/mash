@@ -1,0 +1,30 @@
+{
+  "name": "at-backend",
+  "version": "0.1.0",
+  "description": "A backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "tsc --watch & node --watch-path dist --watch ./dist/index.js",
+    "build": "tsc"
+  },
+  "author": "Jukka Aittola",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^13.0.1",
+    "typescript": "^5.6.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/koa": "^2.15.0",
+    "@types/koa-json": "^2.0.23",
+    "@types/koa-logger": "^3.1.5",
+    "@types/koa-router": "^7.4.8"
+  }
+}
