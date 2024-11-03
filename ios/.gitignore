@@ -1,0 +1,12 @@
+build/
+xcuserdata/
+*.pbxuser
+
+*.ipa
+.build/
+
+contents.xcworkspacedata
+IDEWorkspaceChecks.plist
+
+/*.dSYM.zip
+
